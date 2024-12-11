@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      gap: 10px;
+  
+      .feature-card {
+        margin-bottom: 10px;
+      }
+    }
+  
+    .intro .cta-button {
+      font-size: 0.9rem;
+    }
+  
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .features .feature-card {
+      padding: 15px;
+    }
+  
+    .intro p {
+      font-size: 0.9rem;
+    }
+  }
+  
